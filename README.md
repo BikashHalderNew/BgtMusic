@@ -53,7 +53,7 @@ curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-ge
 5. Clone the Repository
 git clone https://github.com/BikashhalderNew/BgtMusic &&  cd BgtMusic
 
-6. Install Requirements
+6. Install Installer : 
 pip3 install -U -r Installer
 
 8. Editing Vars:
