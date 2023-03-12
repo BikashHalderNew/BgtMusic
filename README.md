@@ -38,17 +38,15 @@
 
 
 ## VPS DEPLOY                                                                                          
-1.  Upgrade and Update:
-sudo apt-get update && sudo apt-get upgrade -y
+💥 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 (𝐕𝐏𝐒) 💞
 
-2. Installing Required Packages:
-sudo apt-get install python3-pip ffmpeg -y
+1) sudo apt update && sudo apt install git curl python3-pip ffmpeg -y
 
-3. Setting up PIP :
-sudo pip3 install -U pip
+2) curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
-4. Installing Node :
-curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
+3) source ~/.bashrc
+
+4) nvm install node
 
 5. Clone the Repository :
 git clone https://github.com/BikashhalderNew/BgtMusic &&  cd BgtMusic
