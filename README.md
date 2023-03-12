@@ -44,17 +44,17 @@ sudo apt-get update && sudo apt-get upgrade -y
 2. Installing Required Packages:
 sudo apt-get install python3-pip ffmpeg -y
 
-3. Setting up PIP
+3. Setting up PIP :
 sudo pip3 install -U pip
 
-4. Installing Node
+4. Installing Node :
 curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
 
-5. Clone the Repository
+5. Clone the Repository :
 git clone https://github.com/BikashhalderNew/BgtMusic &&  cd BgtMusic
 
 6. Install Installer : 
-pip3 install -U -r Installer
+pip3 install -r Installer
 
 8. Editing Vars:
 vi Internal 
