@@ -1,4 +1,4 @@
-### Power By @BikashHalder & @AdityaHalder 
+### Powered By @BikashHalder & @AdityaHalder 
 
 ### Join @BikashGadgetsTech For More Update
 
@@ -35,6 +35,35 @@
 ## YouTube 📺
 
 [YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
+
+
+## VPS DEPLOY                                                                                          
+1.  Upgrade and Update:
+sudo apt-get update && sudo apt-get upgrade -y
+
+2. Installing Required Packages:
+sudo apt-get install python3-pip ffmpeg -y
+
+3. Setting up PIP
+sudo pip3 install -U pip
+
+4. Installing Node
+curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
+
+5. Clone the Repository
+git clone https://github.com/BikashhalderNew/BgtMusic &&  cd BgtMusic
+
+6. Install Requirements
+pip3 install -U -r Installer
+
+8. Editing Vars:
+vi Internal 
+Edit Internal with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there.
+Press I button on keyboard to start editing.
+Press Ctrl + C  once you are done with editing vars and type :wq to save Internal or :qa to exit editing.
+
+9. Finally Run BGT Music Bot :
+python3 -m modules 
 
 
 #### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
