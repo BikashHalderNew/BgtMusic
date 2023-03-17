@@ -6,7 +6,7 @@
     "python3",
     "telegram",
     "bot",
-    "Bikash",
+    "modules",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -43,7 +43,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "A Pyrogram String Session.",
         "value": "",
         "required": true
       },
