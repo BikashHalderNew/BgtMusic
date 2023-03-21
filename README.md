@@ -36,10 +36,12 @@
 
 [YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
 
-### Deploy To Heroku
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BikashHalderNew/BgtMusic)
+</h3>
 
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/BikashHalderNew/BgtMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 ## VPS DEPLOY                                                                                          
 💥 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 (𝐕𝐏𝐒) 💞
 
