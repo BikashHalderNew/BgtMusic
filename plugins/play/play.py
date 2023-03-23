@@ -110,7 +110,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(ex_type)
+                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(e)
                 )
                 return await mystic.edit_text(err)
             return await mystic.delete()
@@ -160,7 +160,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(ex_type)
+                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(e)
                 )
                 return await mystic.edit_text(err)
             return await mystic.delete()
@@ -316,7 +316,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(ex_type)
+                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(e)
                 )
                 return await mystic.edit_text(err)
             return await mystic.delete()
@@ -354,7 +354,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(ex_type)
+                    else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(e)
                 )
                 return await mystic.edit_text(err)
             return await play_logs(
@@ -420,7 +420,7 @@ async def play_commnd(
             err = (
                 e
                 if ex_type == "AssistantErr"
-                else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(ex_type)
+                else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(e)
             )
             return await mystic.edit_text(err)
         await mystic.delete()
@@ -565,7 +565,7 @@ async def play_music(client, CallbackQuery, _):
         err = (
             e
             if ex_type == "AssistantErr"
-            else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(ex_type)
+            else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(e)
         )
         return await mystic.edit_text(err)
     return await mystic.delete()
@@ -675,7 +675,7 @@ async def play_playlists_command(client, CallbackQuery, _):
         err = (
             e
             if ex_type == "AssistantErr"
-            else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(ex_type)
+            else "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`".format(e)
         )
         return await mystic.edit_text(err)
     return await mystic.delete()
