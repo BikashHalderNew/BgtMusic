@@ -1,8 +1,4 @@
-# Power By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
-
+# Powered By @BikashHalder @AdityaHalder
 
 import random
 from ast import ExceptHandler
@@ -368,7 +364,7 @@ async def play_commnd(
         if len(message.command) < 2:
             buttons = botplaylist_markup(_)
             return await mystic.edit_text(
-                "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐒𝐨𝐦𝐞 💿 𝐐𝐮𝐞𝐫𝐲 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐒𝐨𝐧𝐠 🌷...**\n\n𝐔𝐬𝐚𝐠𝐞 : bgt (Song Name) or /play (Song Name) ★",
+                "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐒𝐨𝐦𝐞 💿 𝐐𝐮𝐞𝐫𝐲 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐒𝐨𝐧𝐠 🌷...**",
             )
         slider = True
         query = message.text.split(None, 1)[1]
@@ -757,9 +753,3 @@ async def slider_queries(client, CallbackQuery, _):
         return await CallbackQuery.edit_message_media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
         )
-
-
-# Power By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
