@@ -14,7 +14,7 @@ from modules.utils.helpers.filters import command
 from modules import app
 from modules.misc import SUDOERS
 
-# Commands
+#  Commands
 SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
 
 
@@ -29,13 +29,12 @@ def testspeed(m):
         test.results.share()
         result = test.results.dict()
         m = m.edit("Sharing SpeedTest Results")
-        path = wget.download(result["share"])
     except Exception as e:
         return m.edit(e)
-    return result, path
+    return result
 
 
-@app.on_message(command(SPEEDTEST_COMMAND) & SUDOERS)
+@app.on_message(filters.command(SPEEDTEST_COMMAND) & SUDOERS)
 async def speedtest_function(client, message):
     m = await message.reply_text("Running Speed test")
     loop = asyncio.get_event_loop()
@@ -53,9 +52,10 @@ async def speedtest_function(client, message):
 **__Latency:__** {result['server']['latency']}  
 **__Ping:__** {result['ping']}"""
     msg = await app.send_photo(
-        chat_id=message.chat.id, photo=path, caption=output
+        chat_id=message.chat.id, 
+        photo=result["share"], 
+        caption=output
     )
-    os.remove(path)
     await m.delete()
 
 
