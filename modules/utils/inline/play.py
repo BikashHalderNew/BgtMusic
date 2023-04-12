@@ -5,6 +5,7 @@
 
 import random
 from modules.config import SUPPORT_GROUP
+from modules.config import SUPPORT_CHANNEL
 from pyrogram.types import InlineKeyboardButton
 
 
@@ -16,6 +17,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                         "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{SUPPORT_GROUP}"
             )
         ],
+        [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
     ]
     return buttons
 
@@ -25,6 +36,16 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                         "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{SUPPORT_GROUP}"
+            )
+        ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -41,6 +62,16 @@ def stream_markup(_, videoid, chat_id):
                         "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{SUPPORT_GROUP}"
             )
         ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
     ]
     return buttons
 
@@ -50,6 +81,16 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                         "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{SUPPORT_GROUP}"
+            )
+        ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -99,6 +140,16 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
         ],
+        [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
     ]
     return buttons
 
@@ -118,6 +169,16 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
             InlineKeyboardButton(
                 text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌",
                 callback_data=f"forceclose {videoid}|{user_id}",
+            )
+        ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -155,6 +216,16 @@ def slider_markup(
                 text="❯",
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
+        ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
         ],
     ]
     return buttons
@@ -196,6 +267,16 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
         ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
     ]
     return buttons
 
@@ -233,6 +314,16 @@ def panel_markup_2(_, videoid, chat_id):
                 text="▶️",
                 callback_data=f"Pages Forw|1|{videoid}|{chat_id}",
             ),
+        ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
         ],
     ]
     return buttons
@@ -273,6 +364,16 @@ def panel_markup_3(_, videoid, chat_id):
                 text="▶️",
                 callback_data=f"Pages Forw|2|{videoid}|{chat_id}",
             ),
+        ],
+         [           
+            InlineKeyboardButton(
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
         ],
     ]
     return buttons
