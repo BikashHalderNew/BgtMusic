@@ -26,7 +26,7 @@ from modules.utils.inline.help import (help_back_markup,
 
 
 @app.on_message(
-    command(["help"])
+    filters.command(["help"])
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
