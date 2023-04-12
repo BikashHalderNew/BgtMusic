@@ -43,7 +43,7 @@ SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
 
 
 @app.on_message(
-    command(SETTINGS_COMMAND)
+    filters.command(SETTINGS_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
