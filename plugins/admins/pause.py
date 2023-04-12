@@ -15,7 +15,7 @@ from modules.utils.decorators import AdminRightsCheck
 
 
 @app.on_message(
-    command(["pause", "cpause"])
+    filters.command(["pause", "cpause"])
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
