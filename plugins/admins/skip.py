@@ -21,7 +21,7 @@ from modules.utils.thumbnails import gen_thumb
 
 
 @app.on_message(
-    command(["skip", "cskip"])
+    filters.command(["skip", "cskip"])
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
