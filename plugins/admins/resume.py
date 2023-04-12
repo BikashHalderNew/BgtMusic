@@ -15,7 +15,7 @@ from modules.utils.decorators import AdminRightsCheck
 
 
 @app.on_message(
-    command(["resume", "cresume"])
+    filters.command(["resume", "cresume"])
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
