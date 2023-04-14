@@ -2,3 +2,5 @@
 # Bangali Language Add By Bikash Halder
 # telegram first BENGALI Support Music Bot
 [BIKASHHALDER](t.me/Bikashhalder)
+
+# **Don't Use Bengali Language Without Credit** 😎😎
