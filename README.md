@@ -1,13 +1,12 @@
-### Powered By @BikashHalder & @AdityaHalder 
+### Powered By @salaar_op 
 
-### Join @BikashGadgetsTech For More Update
+### Join @apne_duniya07 For More Update
 
-### Join @AdityaCheats For Hack
+### Join @apne_duniya For Hack
 
-### Join Our Chats @Bgt_Chat & @Adityadiscus 
+### Join Our Chats @apne_duniya
 
-
-### Powered By [@BikashHalder](https://t.me/Bikashhalder)
+### Powered By [@salaar_op](https://t.me/salaar_op)
 
 
 ### ABOUT THIS BOT
@@ -19,22 +18,18 @@
 ## 🥀 Bot Deploy On Workflow / (KAALI LINUX)
  At 1st Import This Repo Then Input All Value In Internal File || Then Proceed Kaali Linux Value Or Ect.
 
-## 🥀 Kaali Linux Tutorial
 
-[Kaali Linux](https://youtu.be/_nZT5lhcL8U)
 
 ## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭
-[𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
+[𝐒𝐚𝐥𝐚𝐚𝐫](https://t.me/salaar_op)
 
 ## Telegram 🏪
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
+[![Telegram Group](https://graph.org/file/adc305c821974f910ba9c.jpg)](https://t.me/apne_duniya)
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgadgetstech)
+[![Telegram Channel](https://graph.org/file/adc305c821974f910ba9c.jpg)](https://t.me/apne_duniya07)
 
-## YouTube 📺
 
-[YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
 
 ### Deploy To Heroku
 
@@ -63,21 +58,21 @@ Edit Internal with your values or you can simple copy a config from here and pas
 Press I button on keyboard to start editing.
 Press Ctrl + C  once you are done with editing vars and type :wq to save Internal or :qa to exit editing.
 
-9. Finally Run BGT Music Bot :
+9. Finally Run Resso Music Bot :
 python3 -m modules 
 
 
 #### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
 
 ### 🌷 Owner Of This Repository 🇮🇳
-[![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
+[![Salaar](https://graph.org/file/1451cef01fb5bbc080f2a.jpg)](https://t.me/salaar_op)
 
 
-#### Main Developer = [Bikash](https://t.me/BikashHalder)
+#### Main Developer = [Salaar](https://t.me/salaar_op)
 
 ## 💕 Special Thanks
 
-✅ Aditya Halder Thanks For Fixed All Error Or Lovely Support 💕
+✅ Salaar server Thanks For Fixed All Error Or Lovely Support 💕
 
 ### 🥳 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐓𝐡𝐞𝐢𝐫 𝐒𝐨𝐮𝐫𝐜𝐞𝐬 🥳
 
@@ -85,4 +80,4 @@ python3 -m modules
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 
-## 🥀 Powered By [BikashHalder](https://t.me/Bikashhalder) & [AdityaHalder](https://t.me/Adityahalder)
+## 🥀 Powered By [salaar](https://t.me/salaar_op)
