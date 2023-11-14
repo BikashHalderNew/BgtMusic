@@ -21,20 +21,20 @@
 
 ## 🥀 Kaali Linux Tutorial
 
-[Kaali Linux](https://youtu.be/_nZT5lhcL8U)
+[Kaali Linux](https://t.me/all_exam_quiz_new)
 
 ## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭
 [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
 
 ## Telegram 🏪
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
+[![Telegram Group](https://t.me/all_exam_quiz_new)
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgadgetstech)
+[![Telegram Channel](https://t.me/all_exam_quiz_new)
 
 ## YouTube 📺
 
-[YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
+[YouTube Channel](https://t.me/all_exam_quiz_new)
 
 ### Deploy To Heroku
 
