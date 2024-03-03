@@ -5,6 +5,7 @@
 
 import os
 import re
+from pyrogram.errors import RPCError
 
 import yt_dlp
 from pykeyboard import InlineKeyboard
